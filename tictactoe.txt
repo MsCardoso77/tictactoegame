@@ -1,0 +1,8 @@
+1. pegar os eventos de clicks
+
+2. mudar o background do card baseado no jogador que clicou
+
+3. bloquear os botões que já foram clicados
+
+4. verificar as situações de win game
+

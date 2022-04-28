@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #2d2e30, #1a1b1d);
+}
+
+.title {
+  font-size: 64px;
+  color: #e4e4e7;
+  text-align: center;
+}
+
+.alert {
+    display:flex;
+    justify-content: center;
+}
+
+.ingame {
+  font-size: 28px;
+  color: #e4e4e7;
+  text-align: center;
+  margin-top: -36px;
+}
+
+.xwin {
+  font-size: 28px;
+  color: #e4e4e7;
+  text-align: center;
+  display: none;
+  margin-top: -36px;
+}
+
+.owin {
+  font-size: 28px;
+  color: #e4e4e7;
+  text-align: center;
+  display: none;
+  margin-top: -36px;
+}
+
+.tie {
+  font-size: 28px;
+  color: #e4e4e7;
+  text-align: center;
+  display: none;
+  margin-top: -36px;
+}
+
+.restart {
+    font-size: 28px;
+    color: #00b376;
+    text-align: center;
+    background-color: transparent;
+    display: none;
+    border: none;
+    cursor: pointer;
+    margin-top: -64px;
+}
+
+.tictactoe-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 140px);
+  grid-template-rows: repeat(3, 140px);
+}
+
+.tictactoe-grid > button {
+  cursor: pointer;
+  background-color: #0d99c000;
+  border: 1px solid #00b376;
+  border-radius: 5px;
+  outline: none;
+  color: #e4e4e7;
+  font-size: 64px;
+}
