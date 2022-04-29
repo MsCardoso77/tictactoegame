@@ -110,7 +110,7 @@ body {
   .tictactoe-grid {
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    padding-top: 64px;
+    padding-top: 52px;
   }
 
   .grid-button:active {
