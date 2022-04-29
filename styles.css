@@ -73,7 +73,7 @@ body {
   grid-template-rows: repeat(3, 140px);
 }
 
-.tictactoe-grid > button {
+.grid-button {
   cursor: pointer;
   background-color: #0d99c000;
   border: 1px solid #00b376;
@@ -81,4 +81,39 @@ body {
   outline: none;
   color: #e4e4e7;
   font-size: 64px;
+}
+
+.grid-button:active {
+  background-color: #00b376;
+}
+
+@media (max-width: 768px) {
+
+  .alert {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 28px;
+  }
+
+  .title {
+    font-size: 46px;
+    color: #e4e4e7;
+    text-align: center;
+    padding-top: 46px;
+  }
+
+  .restart {
+    margin: 0;
+  }
+
+  .tictactoe-grid {
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    padding-top: 64px;
+  }
+
+  .grid-button:active {
+    background-color: #00b376;
+  }
 }
